@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{68465417-1B83-3086-A3B8-9FB021A09704}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>indie_studio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">indie_studio.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">indie_studio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">indie_studio.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">indie_studio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">indie_studio.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">indie_studio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">indie_studio.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">indie_studio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Win64-visualStudio\Irrlicht.lib;..\redist\Irrklang\lib\Winx64-visualStudio\irrKlang.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib/$(Configuration);C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/Debug/indie_studio.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/Debug/indie_studio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Win64-visualStudio\Irrlicht.lib;..\redist\Irrklang\lib\Winx64-visualStudio\irrKlang.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib/$(Configuration);C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/Release/indie_studio.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/Release/indie_studio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Win64-visualStudio\Irrlicht.lib;..\redist\Irrklang\lib\Winx64-visualStudio\irrKlang.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib/$(Configuration);C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/MinSizeRel/indie_studio.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/MinSizeRel/indie_studio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Win64-visualStudio\Irrlicht.lib;..\redist\Irrklang\lib\Winx64-visualStudio\irrKlang.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/lib/Win64-visualStudio/Irrlicht.lib/$(Configuration);C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib;C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/redist/Irrklang/lib/Winx64-visualStudio/irrKlang.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/RelWithDebInfo/indie_studio.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/RelWithDebInfo/indie_studio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio -BC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows --check-stamp-file C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio -BC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows --check-stamp-file C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio -BC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows --check-stamp-file C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio -BC:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows --check-stamp-file C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Sound.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Map.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Bomb.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Bomberman.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Debug.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\define.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\EventListener.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Exception.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\GUI.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\path.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Player.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Protocol.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\SceneManager.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\include\Renderer.hpp" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\aabbox3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\CDynamicMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\CIndexBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\CMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\coreutil.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\CVertexBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\dimension2d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\driverChoice.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EAttributes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ECullingTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EDebugSceneTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EDeviceTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EDriverFeatures.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EDriverTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EGUIAlignment.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EGUIElementTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EHardwareBufferFlags.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EMaterialFlags.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EMaterialTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EMeshWriterEnums.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EMessageBoxFlags.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EPrimitiveTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ESceneNodeAnimatorTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ESceneNodeTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\EShaderTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ETerrainElements.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\fast_atof.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\heapsort.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAnimatedMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAnimatedMeshMD2.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAnimatedMeshMD3.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAnimatedMeshSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAttributeExchangingObject.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IAttributes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IBillboardSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IBillboardTextSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IBoneSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ICameraSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IColladaMeshWriter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ICursorControl.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IDummyTransformationSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IDynamicMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IEventReceiver.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IFileArchive.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IFileList.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IFileSystem.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGeometryCreator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGPUProgrammingServices.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIButton.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUICheckBox.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIColorSelectDialog.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIComboBox.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIContextMenu.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIEditBox.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIElement.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIElementFactory.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIEnvironment.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIFileOpenDialog.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIFont.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIFontBitmap.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIImage.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIImageList.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIInOutFader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIListBox.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIMeshViewer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIScrollBar.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUISkin.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUISpinBox.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUISpriteBank.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIStaticText.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUITabControl.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUITable.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIToolbar.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUITreeView.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IGUIWindow.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IImage.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IImageLoader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IImageWriter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IIndexBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ILightManager.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ILightSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ILogger.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMaterialRenderer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMaterialRendererServices.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshCache.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshLoader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshManipulator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMeshWriter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IMetaTriangleSelector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IOSOperator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleAffector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleAnimatedMeshSceneNodeEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleAttractionAffector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleBoxEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleCylinderEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleFadeOutAffector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleGravityAffector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleMeshEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleRingEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleRotationAffector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleSphereEmitter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IParticleSystemSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IQ3LevelMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IQ3Shader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IRandomizer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IReadFile.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IReferenceCounted.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrAllocator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrArray.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IrrCompileConfig.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrlicht.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IrrlichtDevice.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrList.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrMap.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrMath.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrpack.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrString.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrunpack.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\irrXML.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneCollisionManager.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneLoader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneManager.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeAnimator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeAnimatorCameraFPS.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeAnimatorCameraMaya.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeAnimatorCollisionResponse.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeAnimatorFactory.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneNodeFactory.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISceneUserDataSerializer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IShaderConstantSetCallBack.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IShadowVolumeSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ISkinnedMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ITerrainSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ITextSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ITexture.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ITimer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\ITriangleSelector.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IVertexBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IVideoDriver.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IVideoModeList.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IVolumeLightSceneNode.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IWriteFile.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IXMLReader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\IXMLWriter.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\Keycodes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\line2d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\line3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\matrix4.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\path.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\plane3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\position2d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\quaternion.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\rect.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\S3DVertex.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SAnimatedMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SceneParameters.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SColor.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SExposedVideoData.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SIrrCreationParameters.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SKeyMap.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SLight.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMaterial.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMaterialLayer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMesh.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMeshBufferLightMap.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SMeshBufferTangents.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SParticle.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SSharedMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SSkinMeshBuffer.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SVertexIndex.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SVertexManipulator.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\SViewFrustum.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\triangle3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\vector2d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrlicht\include\vector3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ESoundEngineOptions.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ESoundOutputDrivers.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_EStreamModes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IAudioRecorder.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IAudioStream.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IAudioStreamLoader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IFileFactory.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IFileReader.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IRefCounted.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_irrKlangTypes.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISound.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundDeviceList.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundEffectControl.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundEngine.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundMixedOutputReceiver.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundSource.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_ISoundStopEventReceiver.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_IVirtualRefCounted.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_SAudioStreamFormat.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\ik_vec3d.h" />
+    <ClInclude Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\redist\Irrklang\include\irrKlang.h" />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Debug.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\EventListener.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Exception.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\IGUI.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\main.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Menu.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Option.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\GameGUI.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Renderer.cpp"  />
+    <ClCompile Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Map.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\ZERO_CHECK.vcxproj">
+      <Project>{26C7BDDA-3628-335B-9556-BBB6A3DC8810}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

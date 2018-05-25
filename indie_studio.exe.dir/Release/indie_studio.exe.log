@@ -1,0 +1,58 @@
+﻿  Building Custom Rule C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp is up-to-date.
+  Bomb.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(15): warning C4244: 'argument' : conversion de 'const int' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(16): warning C4244: 'argument' : conversion de 'const int' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(34): warning C4244: 'argument' : conversion de 'const int' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(39): warning C4244: 'argument' : conversion de 'const int' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(49): warning C4244: 'return' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomb.cpp(54): warning C4244: 'return' : conversion de 'float' en 'int', perte possible de données
+  Bomberman.cpp
+  Bomberman_run.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(20): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(27): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(35): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(42): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(155): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Bomberman_run.cpp(160): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  Debug.cpp
+  EventListener.cpp
+  Exception.cpp
+  IGUI.cpp
+  main.cpp
+  Player.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(344): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(363): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(373): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(375): warning C4018: '>' : incompatibilité signed/unsigned
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(381): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(391): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Player.cpp(402): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  Menu.cpp
+  Option.cpp
+  GameGUI.cpp
+  SceneManager.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(74): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(75): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(102): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(105): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(109): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(109): warning C4305: 'argument' : troncation de 'double' à 'irr::f32'
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(111): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(137): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(138): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(139): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(140): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(461): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(461): warning C4244: 'argument' : conversion de 'int' en 'const irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(474): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(474): warning C4244: 'argument' : conversion de 'int' en 'const irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(475): warning C4244: 'argument' : conversion de 'int' en 'irr::f32', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\SceneManager.cpp(475): warning C4244: 'argument' : conversion de 'int' en 'const irr::f32', perte possible de données
+  Renderer.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Renderer.cpp(24): warning C4267: 'argument' : conversion de 'size_t' en 'const irr::u32', perte possible de données
+  Map.cpp
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Map.cpp(63): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\src\Map.cpp(99): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
+  indie_studio.exe.vcxproj -> C:\Users\Mewen\Desktop\Programation\C++\cpp_indie_studio\windows\Release\indie_studio.exe.exe

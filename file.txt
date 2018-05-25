@@ -1,0 +1,1326 @@
+Irrlicht Engine version 1.8.4
+Linux 4.10.0-22-generic #24-Ubuntu SMP Mon May 22 17:43:20 UTC 2017 x86_64
+Irrlicht Engine version 1.8.4
+Linux 4.10.0-22-generic #24-Ubuntu SMP Mon May 22 17:43:20 UTC 2017 x86_64
+Creating X window...
+Starting vidmode fullscreen mode...
+hdisplay: : 1920
+vdisplay: : 1080
+Visual chosen: : 232
+Using renderer: OpenGL 3.0
+Mesa DRI Intel(R) Haswell Mobile : Intel Open Source Technology Center
+OpenGL driver version is 1.2 or better.
+GLSL version: 1.3
+irrKlang sound library version 1.5.0
+Using ALSA driver
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/back.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/front.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/right.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/left.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/down.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/skybox/up.tga
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/menu_background.jpg
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_jouer.png
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_jouer_hover.png
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_options.png
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_options_hover.png
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_quitter.png
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/btn/button_quitter_hover.png
+Begin of file
+0000000000
+0011110000
+0001111000
+0000000000
+0012101210
+0000000000
+0010101010
+0020200000
+0000000000
+0000000000End of file
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/texture/grass.jpg
+PNG warning: iCCP: known incorrect sRGB profile
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/texture/wall.png
+debug DataObject:: template
+CXFileReader: Reading template
+debug DataObject:: template
+CXFileReader: Reading template
+debug DataObject:: template
+CXFileReader: Reading template
+debug DataObject:: Frame
+CXFileReader: Reading frame
+creating joint : Root
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_029
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_001
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_003
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_018
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_022
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_023
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_024
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_025
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_026
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_027
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_028
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_004
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_005
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_006
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_007
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_008
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_012
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_013
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_015
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_016
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_002
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_009
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_011
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_010
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_014
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_019
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_017
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_020
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_Bone_021
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Armature_mabite
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: Frame
+CXFileReader: Reading frame
+creating joint : Mesh_014_DrawCall_287
+debug DataObject in frame:: FrameTransformMatrix
+CXFileReader: Reading Transformation Matrix
+debug DataObject in frame:: Mesh
+CXFileReader: Reading mesh: 
+debug DataObject in mesh:: MeshNormals
+CXFileReader: reading mesh normals
+debug DataObject in mesh:: MeshTextureCoords
+CXFileReader: reading mesh texture coordinates
+debug DataObject in mesh:: MeshMaterialList
+CXFileReader: Reading mesh material list
+CXFileReader: Reading mesh material
+CXFileReader: reading texture filename
+Could not open file of texture: body.png
+CXFileReader: Reading mesh material
+CXFileReader: reading texture filename
+Could not open file of texture: body.png
+CXFileReader: Reading mesh material
+CXFileReader: reading texture filename
+Could not open file of texture: body.png
+debug DataObject in mesh:: XSkinMeshHeader
+CXFileReader: Reading skin mesh header
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in mesh:: SkinWeights
+CXFileReader: Reading mesh skin weights
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject in frame:: }
+debug DataObject:: AnimTicksPerSecond
+Unknown data object in animation of .x file: AnimTicksPerSecond
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : all_action
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : Allanimation
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Mesh_014_DrawCall_287
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : all_action_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : run
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : run_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : Untitled
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+debug DataObject:: AnimationSet
+CXFileReader: Reading animation set
+Reading animationset : win
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_029
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_002
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_mabite
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_011
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_010
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_019
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_017
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_020
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_021
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_014
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_001
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_003
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_018
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_022
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_026
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_027
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_028
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_023
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_024
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_025
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_012
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_013
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_006
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_007
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_008
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_015
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_016
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_009
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_004
+CXFileReader: reading animation
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+CXFileReader: reading animation key
+frame name: Armature_Bone_005
+Time to load ascii X file: 237ms
+Loaded mesh: asset/model/bombernew.x
+Loaded texture: /home/lerest_m/Desktop/Programmation/C++/cpp_indie_studio/asset/texture/box.jpg
+0000000000
+00####0000
+000####000
+0000000000
+00#X#0#X#0
+0000000000
+00#0#0#0#0
+00X0X00000
+0000000000
+##########

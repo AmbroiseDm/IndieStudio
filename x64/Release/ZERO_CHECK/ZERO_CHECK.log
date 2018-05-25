@@ -1,0 +1,8 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/CMakeLists.txt'
+    is newer than 'C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Mewen/Desktop/Programation/C++/cpp_indie_studio/windows

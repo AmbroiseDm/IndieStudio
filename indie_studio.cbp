@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="indie_studio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/theogalh/projet/cpp_indie_studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/theogalh/projet/cpp_indie_studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/theogalh/projet/cpp_indie_studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indie_studio">
+				<Option output="/home/theogalh/projet/cpp_indie_studio/indie_studio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/theogalh/projet/cpp_indie_studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/include"/>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include"/>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 indie_studio"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indie_studio/fast">
+				<Option output="/home/theogalh/projet/cpp_indie_studio/indie_studio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/theogalh/projet/cpp_indie_studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/include"/>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include"/>
+					<Add directory="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 indie_studio/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/theogalh/projet/cpp_indie_studio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Bomb.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Bomberman.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Debug.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/EventListener.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Exception.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Flame.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/GUI.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Map.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Player.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Protocol.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Renderer.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/SceneManager.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/Sound.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/define.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/include/path.hpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ESoundEngineOptions.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ESoundOutputDrivers.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_EStreamModes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IAudioRecorder.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IAudioStream.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IAudioStreamLoader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IFileFactory.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IFileReader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IRefCounted.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISound.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundDeviceList.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundEffectControl.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundEngine.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundMixedOutputReceiver.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundSource.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_ISoundStopEventReceiver.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_IVirtualRefCounted.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_SAudioStreamFormat.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_irrKlangTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/ik_vec3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrklang/include/irrKlang.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/CDynamicMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/CIndexBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/CMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/CVertexBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EAttributes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ECullingTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EDebugSceneTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EDeviceTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EDriverFeatures.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EDriverTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EGUIAlignment.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EGUIElementTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EHardwareBufferFlags.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EMaterialFlags.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EMaterialTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EMeshWriterEnums.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EMessageBoxFlags.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EPrimitiveTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ESceneNodeAnimatorTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ESceneNodeTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/EShaderTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ETerrainElements.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAnimatedMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAnimatedMeshMD2.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAnimatedMeshMD3.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAnimatedMeshSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAttributeExchangingObject.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IAttributes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IBillboardSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IBillboardTextSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IBoneSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ICameraSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IColladaMeshWriter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ICursorControl.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IDummyTransformationSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IDynamicMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IEventReceiver.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IFileArchive.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IFileList.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IFileSystem.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGPUProgrammingServices.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIButton.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUICheckBox.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIColorSelectDialog.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIComboBox.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIContextMenu.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIEditBox.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIElement.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIElementFactory.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIEnvironment.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIFileOpenDialog.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIFont.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIFontBitmap.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIImage.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIImageList.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIInOutFader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIListBox.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIMeshViewer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIScrollBar.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUISkin.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUISpinBox.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUISpriteBank.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIStaticText.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUITabControl.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUITable.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIToolbar.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUITreeView.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGUIWindow.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IGeometryCreator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IImage.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IImageLoader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IImageWriter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IIndexBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ILightManager.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ILightSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ILogger.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMaterialRenderer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMaterialRendererServices.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshCache.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshLoader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshManipulator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMeshWriter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IMetaTriangleSelector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IOSOperator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleAffector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleAnimatedMeshSceneNodeEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleAttractionAffector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleBoxEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleCylinderEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleFadeOutAffector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleGravityAffector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleMeshEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleRingEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleRotationAffector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleSphereEmitter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IParticleSystemSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IQ3LevelMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IQ3Shader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IRandomizer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IReadFile.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IReferenceCounted.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneCollisionManager.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneLoader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneManager.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeAnimator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeAnimatorCameraFPS.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeAnimatorCameraMaya.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeAnimatorCollisionResponse.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeAnimatorFactory.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneNodeFactory.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISceneUserDataSerializer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IShaderConstantSetCallBack.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IShadowVolumeSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ISkinnedMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ITerrainSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ITextSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ITexture.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ITimer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/ITriangleSelector.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IVertexBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IVideoDriver.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IVideoModeList.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IVolumeLightSceneNode.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IWriteFile.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IXMLReader.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IXMLWriter.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IrrCompileConfig.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/IrrlichtDevice.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/Keycodes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/S3DVertex.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SAnimatedMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SColor.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SExposedVideoData.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SIrrCreationParameters.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SKeyMap.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SLight.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMaterial.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMaterialLayer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMesh.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMeshBufferLightMap.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SMeshBufferTangents.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SParticle.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SSharedMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SSkinMeshBuffer.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SVertexIndex.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SVertexManipulator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SViewFrustum.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/SceneParameters.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/aabbox3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/coreutil.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/dimension2d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/driverChoice.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/fast_atof.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/heapsort.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrAllocator.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrArray.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrList.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrMap.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrMath.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrString.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrTypes.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrXML.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrlicht.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrpack.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/irrunpack.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/line2d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/line3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/matrix4.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/path.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/plane3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/position2d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/quaternion.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/rect.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/triangle3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/vector2d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/redist/Irrlicht/include/vector3d.h">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Bomb.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Bomberman.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Bomberman_run.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Debug.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/EventListener.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Exception.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Flame.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/GameGUI.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/IGUI.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Map.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Menu.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Option.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Player.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Renderer.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/SceneManager.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/Splash.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/src/main.cpp">
+			<Option target="indie_studio"/>
+		</Unit>
+		<Unit filename="/home/theogalh/projet/cpp_indie_studio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

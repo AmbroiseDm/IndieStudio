@@ -1,0 +1,3 @@
+/home/adamier/indie/IndieStudio/CMakeFiles/rebuild_cache.dir
+/home/adamier/indie/IndieStudio/CMakeFiles/indie_studio.dir
+/home/adamier/indie/IndieStudio/CMakeFiles/edit_cache.dir
